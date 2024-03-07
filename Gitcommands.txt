@@ -149,3 +149,9 @@ VIDEOS 17
 3. git branch --no-merged -> shows only thiose branches who didn't merge.  
 
 4. git branch -d "name of the branch" -> in this command git will give you an error "beccause the branch hasn't merged in any master or main directory." to completely delete the branch just use "-D" in your command -> "git branch -D "name of the branch" ".
+
+
+VIDEOS 18
+
+
+1. git kyu push?
