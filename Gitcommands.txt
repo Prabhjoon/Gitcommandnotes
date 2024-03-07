@@ -157,3 +157,8 @@ VIDEOS 18
 
 Topic Branches -> use for sharing topic only (Short-term branch).
 
+VIDEOS 19
+
+1. git push -u bugfix:mybugfix -> it changes the tracking system from "bugfix" to "mybugfix" with a new branch.
+
+2. git 
