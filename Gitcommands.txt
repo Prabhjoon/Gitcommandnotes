@@ -153,5 +153,7 @@ VIDEOS 17
 
 VIDEOS 18
 
+* Long Running Branches -> Developers work on this branch at a very long time (Permanent Branch). 
 
-1.
+Topic Branches -> use for sharing topic only (Short-term branch).
+
