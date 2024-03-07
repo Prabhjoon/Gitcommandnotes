@@ -135,4 +135,17 @@ VIDEOS 16
 
 1. git merge "BranchName" -> this command will merge the current and the previous file at the same time. 
 
-Note : works with master and their child branches "anything" 
+Note : works with master and their child branches "anything".
+
+
+VIDEOS 17
+
+* "<<<" -> Conflict resolution marker. 
+
+1. git branch -v -> Shows all the branches with commit hash and commit message.
+
+2. git branch --merged -> shows already merged branches only.
+
+3. git branch --no-merged -> shows only thiose branches who didn't merge.  
+
+4. git branch -d "name of the branch" -> in this command git will give you an error "beccause the branch hasn't merged in any master or main directory." to completely delete the branch just use "-D" in your command -> "git branch -D "name of the branch" ".
