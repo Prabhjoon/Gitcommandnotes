@@ -154,4 +154,4 @@ VIDEOS 17
 VIDEOS 18
 
 
-1. git kyu push?
+1.
