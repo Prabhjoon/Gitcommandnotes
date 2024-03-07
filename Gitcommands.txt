@@ -1,0 +1,138 @@
+CODE WITH HARRY (GIT TUTORIAL) 19 Videos
+___________________________________________________________________________________
+
+
+VIDEO 02
+
+1. git config --global user.name "Vishnu"	->   To add user name
+
+2. git config --global user.email "Vishnu@gmail.com"   ->   To add user email and so on.
+
+3. git config user.name  	-> To view name
+
+4. git config user.email  	-> To view email
+
+5. git config --list    ->   To view list (User details)
+
+
+VIDEO 04
+
+1. git status -> To view status
+note- first time it shows  " fatal: not a git repository "
+
+2.git init -> To make the selected folder a git repository
+
+3. git add --a  -> To add all files to staging area.
+
+4. git commit -m " write message here " -> To finally submit all staging files to git repository (Takes a screenshot ). This will clean the working tree.
+note- don't use git commit without -m(message) as it will open git commit editor. 
+
+5. git log -> shows all the changes made by the user.
+
+6. git add filename.extention -> To add a particular file to staging.
+
+
+VIDEO 05
+
+1. rm -rf .git -> Remove folder from git repository
+
+2. git clone (link) -> To clone a git repository.
+
+3. pwd -> present working directory
+
+4. ls -> list content
+
+5. cd foldername/ -> change directory 
+
+6. q -> Quit (back to command line )
+
+
+VIDEO 07
+
+1. touch error.log -> adds a new error.log file to the folder.
+
+2. touch .gitignore -> adds a new .gitignore file to the folder.
+
+3. git add .  -> same as git add --a
+
+
+VIDEO 08
+
+1. git diff -> compares staging area with working directory
+2. git diff --staged   -> compares previous commit with current staging area.
+
+
+VIDEO 09
+
+1. git commit -a -m    -> stages and commits all tracked files together (Skips the staging area) .
+
+VIDEO 10
+
+1. git rm filename.extension  -> deletes/removes the particular file.
+
+2. git mv oldfilename newfilename -> renames/moves oldfile to new.
+
+3. git rm --cached filename ->  Stops tracking of the file.
+
+
+VIDEO 11
+
+1. git log -p 	-> shows addition and subtraction made in the commit.(helps you to identify the difference between the previous and the present one.)
+
+2. git log -p -n  -> Here "n" is the number of commits we want to show.
+
+3. git log --stat -> it shows the short summary of a commit (with insertion and deletion).
+
+4. git log --pretty=oneline -> summary of a commit in a single line.
+
+5. git log --pretty=short -> shows the commit with only "Author" and their "commits" (always helpful to track the commit immidietly).
+
+6.git log --pretty=full -> shows Author, commit and Message 
+
+7. git log --since=n.days/months/year -> shows only n number of days.
+
+8. git log --pretty=format:"%'x' --%'xx'" -> view the commit with filteration process as per the date,author etc.for more information go to this link in placeholder section("https://git-scm.com/docs/git-log").
+
+9. git log --amend -> officially us it to the changes made in the present file and add it into the previous commit of the author. 
+
+
+*Who is Author and committer in git?
+
+Ans. The person who creates the file is called the "Author".
+The person who make some changes in the file called as the "committer".    
+
+
+VIDEO 12
+
+
+1. git restore  --staged -> use for unstagging the before commit.
+
+2. git checkout -- "file name" -> use to restore the deleted data, also it matches the previous file data.
+
+3. git checkout -f -> use to recover the data from all the files which has been changed or replaced by the developer.
+
+
+ VIDEOS 13 
+
+1. git remote -> this command use to host for a working directory(GitHub).
+
+
+
+
+
+
+VIDEOS 15
+
+1. git checkout -b develop -> To create a new branch "develop".
+
+2. git checkout master -> this command will help you to change your current directory into your master directory.
+
+3. git branch -> to check all the branches of your directory.
+
+
+
+VIDEOS 16
+
+1. git merge "BranchName" -> this command will merge the current and the previous file at the same time. 
+
+Note : works with master and their child branches "anything". 
